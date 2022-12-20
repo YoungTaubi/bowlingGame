@@ -1,16 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <BabylonExamples />
+  <!-- <ProductPage /> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import BabylonExamples from './components/BabylonExamples.vue';
+// import ProductPage from './components/ProductPage.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+  BabylonExamples,
+  // ProductPage
   }
 });
 </script>
